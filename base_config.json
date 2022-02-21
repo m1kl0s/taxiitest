@@ -1,0 +1,15 @@
+{
+   "backend": {
+        "module": "medallion.backends.mongodb_backend",
+        "module_class": "MongoBackend",
+        "uri": "mongodb://taxiidb:MwSZboPcpKkQfN07@cluster0-shard-00-00.r7tjd.mongodb.net:27017,cluster0-shard-00-01.r7tjd.mongodb.net:27017,cluster0-shard-00-02.r7tjd.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-7vk6bi-shard-0&authSource=admin&retryWrites=true&w=majority"
+     },
+  "users": {
+    "admin": "Password0",
+    "user1": "Password1",
+    "user2": "Password2"
+  },
+  "taxii": {
+      "max_page_size": 1000
+  }
+}
